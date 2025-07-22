@@ -723,3 +723,490 @@ This generated password is for development use only. Your security configuration
 2025-07-22 09:40:04.811 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:44 - [DATA-INIT] Bölümler zaten mevcut, yeni bölüm eklenmeyecek
 2025-07-22 09:40:04.842 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:56 - [DATA-INIT] İlk ADMIN Kullanıcısı zaten mevcut, tekrar eklenmeyecek
 2025-07-22 09:40:04.843 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:63 - Condition evaluation unchanged
+2025-07-22 09:51:08.015 [http-nio-0.0.0.0-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22 09:51:08.016 [http-nio-0.0.0.0-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2025-07-22 09:51:08.017 [http-nio-0.0.0.0-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2025-07-22 09:51:08.021 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /
+2025-07-22 09:51:08.021 [http-nio-0.0.0.0-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/
+2025-07-22 09:51:08.021 [http-nio-0.0.0.0-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: 2573c45e-d96f-4f5e-ae78-44c53050e0d9
+2025-07-22 09:51:08.021 [http-nio-0.0.0.0-8080-exec-1] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /: 2573c45e-d96f-4f5e-ae78-44c53050e0d9
+2025-07-22 09:51:08.022 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:51:08.039 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.s.w.s.HttpSessionRequestCache.saveRequest:80 - Saved request http://192.168.68.6:8080/?continue to session
+2025-07-22 09:51:08.039 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint.commence:58 - Pre-authenticated entry point called. Rejecting access
+2025-07-22 09:51:08.040 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /error
+2025-07-22 09:51:08.041 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:51:08.042 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.s.w.s.HttpSessionRequestCache.saveRequest:80 - Saved request http://192.168.68.6:8080/error?continue to session
+2025-07-22 09:51:08.042 [http-nio-0.0.0.0-8080-exec-1] DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint.commence:58 - Pre-authenticated entry point called. Rejecting access
+2025-07-22 09:51:58.465 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown.shutDownGracefully:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22 09:51:58.472 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown.doShutdown:76 - Graceful shutdown complete
+2025-07-22 09:51:58.475 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy:660 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:51:58.476 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:349 - HikariPool-2 - Shutdown initiated...
+2025-07-22 09:51:58.477 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:351 - HikariPool-2 - Shutdown completed.
+2025-07-22 09:56:14.534 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit>:21 - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-22 09:56:14.588 [restartedMain] INFO  c.example.backend.BackendApplication.logStarting:53 - Starting BackendApplication using Java 23.0.2 with PID 9980 (D:\Staj-Proje\Backend\target\classes started by Monsterr in D:\Staj-Proje\Backend)
+2025-07-22 09:56:14.589 [restartedMain] DEBUG c.example.backend.BackendApplication.logStarting:54 - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22 09:56:14.590 [restartedMain] INFO  c.example.backend.BackendApplication.logStartupProfileInfo:652 - No active profile set, falling back to 1 default profile: "default"
+2025-07-22 09:56:14.644 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-22 09:56:14.644 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-22 09:56:15.117 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22 09:56:15.166 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:213 - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2025-07-22 09:56:15.530 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize:111 - Tomcat initialized with port 8080 (http)
+2025-07-22 09:56:15.539 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:56:15.540 [restartedMain] INFO  o.a.catalina.core.StandardService.log:168 - Starting service [Tomcat]
+2025-07-22 09:56:15.540 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22 09:56:15.570 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring embedded WebApplicationContext
+2025-07-22 09:56:15.571 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext:301 - Root WebApplicationContext: initialization completed in 927 ms
+2025-07-22 09:56:15.677 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22 09:56:15.706 [restartedMain] INFO  org.hibernate.Version.logVersion:44 - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22 09:56:15.726 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator.initiateService:50 - HHH000026: Second-level cache disabled
+2025-07-22 09:56:15.900 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22 09:56:15.919 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:109 - HikariPool-1 - Starting...
+2025-07-22 09:56:16.033 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast:575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e642cfa
+2025-07-22 09:56:16.034 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:122 - HikariPool-1 - Start completed.
+2025-07-22 09:56:16.079 [restartedMain] INFO  o.hibernate.orm.connections.pooling.logConnectionInfo:163 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22 09:56:16.866 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22 09:56:17.008 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:447 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:56:17.259 [restartedMain] INFO  c.e.backend.config.SecurityConfig.passwordEncoder:25 - [GÜVENLİK] BCryptPasswordEncoder bean'i oluşturuluyor
+2025-07-22 09:56:17.326 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:258 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22 09:56:17.354 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword:90 - 
+
+Using generated security password: a08b00a8-aa4e-40ec-9fbe-3abce0d806e1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-07-22 09:56:17.360 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure:110 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-22 09:56:17.411 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:31 - [GÜVENLİK] Security filter chain konfigürasyonu başlatıldı
+2025-07-22 09:56:17.412 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.filterChain:36 - [GÜVENLİK] CSRF repository ayarlandı: org.springframework.security.web.csrf.CookieCsrfTokenRepository@4827121b
+2025-07-22 09:56:17.413 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$0:40 - [GÜVENLİK-CORS] CORS konfigürasyonu uygulanıyor
+2025-07-22 09:56:17.413 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:90 - [GÜVENLİK-CORS] CORS konfigürasyonu oluşturuluyor
+2025-07-22 09:56:17.415 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:99 - [GÜVENLİK-CORS] İzin verilen origin: [http://localhost:4200]
+2025-07-22 09:56:17.415 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:100 - [GÜVENLİK-CORS] İzin verilen method'lar: [GET, POST, PUT, DELETE, OPTIONS]
+2025-07-22 09:56:17.415 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:101 - [GÜVENLİK-CORS] İzin verilen header'lar: [*]
+2025-07-22 09:56:17.415 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:102 - [GÜVENLİK-CORS] Credentials izni: true
+2025-07-22 09:56:17.416 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:107 - [GÜVENLİK-CORS] CORS konfigürasyonu başarıyla oluşturuldu
+2025-07-22 09:56:17.417 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$3:44 - [GÜVENLİK-CSRF] CSRF konfigürasyonu uygulanıyor
+2025-07-22 09:56:17.549 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:79 - [GÜVENLİK] Security filter chain başarıyla konfigüre edildi
+2025-07-22 09:56:17.569 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain.<init>:72 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-22 09:56:17.732 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2025-07-22 09:56:17.748 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:56:17.769 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start:243 - Tomcat started on port 8080 (http) with context path '/'
+2025-07-22 09:56:17.780 [restartedMain] INFO  c.example.backend.BackendApplication.logStarted:59 - Started BackendApplication in 3.669 seconds (process running for 4.364)
+2025-07-22 09:56:17.784 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:33 - [DATA-INIT] Uygulama başlatılıyor - Veri kontrolü yapılıyor
+2025-07-22 09:56:17.881 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22 09:56:17.882 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2025-07-22 09:56:17.883 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2025-07-22 09:56:17.896 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 09:56:17.918 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/csrf
+2025-07-22 09:56:17.921 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:17.921 [http-nio-8080-exec-1] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/csrf: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:17.924 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/csrf
+2025-07-22 09:56:17.932 [http-nio-8080-exec-1] DEBUG c.e.b.controller.CsrfController.getCsrfToken:13 - [GÜVENLİK-CSRF] CSRF token isteği alındı, sadece cookie set edilecek. Veri Dönmez!
+2025-07-22 09:56:17.948 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:56:18.032 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:37 - [DATA-INIT] Mevcut bölüm sayısı: 5
+2025-07-22 09:56:18.032 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:44 - [DATA-INIT] Bölümler zaten mevcut, yeni bölüm eklenmeyecek
+2025-07-22 09:56:18.086 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:56 - [DATA-INIT] İlk ADMIN Kullanıcısı zaten mevcut, tekrar eklenmeyecek
+2025-07-22 09:56:20.437 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing OPTIONS /api/auth/giris
+2025-07-22 09:56:20.439 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing POST /api/auth/giris
+2025-07-22 09:56:20.440 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=POST, URI=/api/auth/giris
+2025-07-22 09:56:20.440 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:20.441 [http-nio-8080-exec-6] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/auth/giris: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:20.441 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured POST /api/auth/giris
+2025-07-22 09:56:20.465 [http-nio-8080-exec-6] INFO  c.e.b.controller.AuthController.girisYap:62 - [KULLANICI-GİRİŞ] Giriş isteği alındı: emirkarabulut10@gmail.com
+2025-07-22 09:56:20.465 [http-nio-8080-exec-6] INFO  c.e.backend.service.KullaniciService.girisYap:42 - [KULLANICI-GİRİŞ] Giriş denemesi başlatıldı: emirkarabulut10@gmail.com
+2025-07-22 09:56:20.543 [http-nio-8080-exec-6] DEBUG c.e.backend.service.KullaniciService.lambda$girisYap$0:48 - [KULLANICI-GİRİŞ] Şifre kontrolü sonucu: false
+2025-07-22 09:56:20.543 [http-nio-8080-exec-6] WARN  c.e.backend.service.KullaniciService.girisYap:56 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:20.544 [http-nio-8080-exec-6] WARN  c.e.b.controller.AuthController.girisYap:91 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:20.555 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:56:25.392 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing POST /api/auth/giris
+2025-07-22 09:56:25.393 [http-nio-8080-exec-4] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=POST, URI=/api/auth/giris
+2025-07-22 09:56:25.394 [http-nio-8080-exec-4] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:25.394 [http-nio-8080-exec-4] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/auth/giris: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:25.394 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured POST /api/auth/giris
+2025-07-22 09:56:25.395 [http-nio-8080-exec-4] INFO  c.e.b.controller.AuthController.girisYap:62 - [KULLANICI-GİRİŞ] Giriş isteği alındı: emirkarabulut10@gmail.com
+2025-07-22 09:56:25.395 [http-nio-8080-exec-4] INFO  c.e.backend.service.KullaniciService.girisYap:42 - [KULLANICI-GİRİŞ] Giriş denemesi başlatıldı: emirkarabulut10@gmail.com
+2025-07-22 09:56:25.473 [http-nio-8080-exec-4] DEBUG c.e.backend.service.KullaniciService.lambda$girisYap$0:48 - [KULLANICI-GİRİŞ] Şifre kontrolü sonucu: false
+2025-07-22 09:56:25.474 [http-nio-8080-exec-4] WARN  c.e.backend.service.KullaniciService.girisYap:56 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:25.474 [http-nio-8080-exec-4] WARN  c.e.b.controller.AuthController.girisYap:91 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:25.475 [http-nio-8080-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:56:44.761 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown.shutDownGracefully:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22 09:56:44.767 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown.doShutdown:76 - Graceful shutdown complete
+2025-07-22 09:56:44.770 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy:660 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:56:44.772 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:349 - HikariPool-1 - Shutdown initiated...
+2025-07-22 09:56:44.773 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:351 - HikariPool-1 - Shutdown completed.
+2025-07-22 09:56:47.468 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit>:21 - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-22 09:56:47.513 [restartedMain] INFO  c.example.backend.BackendApplication.logStarting:53 - Starting BackendApplication using Java 23.0.2 with PID 7296 (D:\Staj-Proje\Backend\target\classes started by Monsterr in D:\Staj-Proje\Backend)
+2025-07-22 09:56:47.513 [restartedMain] DEBUG c.example.backend.BackendApplication.logStarting:54 - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22 09:56:47.514 [restartedMain] INFO  c.example.backend.BackendApplication.logStartupProfileInfo:652 - No active profile set, falling back to 1 default profile: "default"
+2025-07-22 09:56:47.567 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-22 09:56:47.567 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-22 09:56:48.154 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22 09:56:48.209 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:213 - Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2025-07-22 09:56:48.656 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize:111 - Tomcat initialized with port 8080 (http)
+2025-07-22 09:56:48.667 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:56:48.669 [restartedMain] INFO  o.a.catalina.core.StandardService.log:168 - Starting service [Tomcat]
+2025-07-22 09:56:48.669 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22 09:56:48.705 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring embedded WebApplicationContext
+2025-07-22 09:56:48.706 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext:301 - Root WebApplicationContext: initialization completed in 1138 ms
+2025-07-22 09:56:48.844 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22 09:56:48.881 [restartedMain] INFO  org.hibernate.Version.logVersion:44 - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22 09:56:48.904 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator.initiateService:50 - HHH000026: Second-level cache disabled
+2025-07-22 09:56:49.107 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22 09:56:49.132 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:109 - HikariPool-1 - Starting...
+2025-07-22 09:56:49.263 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast:575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23683ad2
+2025-07-22 09:56:49.264 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:122 - HikariPool-1 - Start completed.
+2025-07-22 09:56:49.315 [restartedMain] INFO  o.hibernate.orm.connections.pooling.logConnectionInfo:163 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22 09:56:49.929 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22 09:56:50.041 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:447 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:56:50.233 [restartedMain] INFO  c.e.backend.config.SecurityConfig.passwordEncoder:25 - [GÜVENLİK] BCryptPasswordEncoder bean'i oluşturuluyor
+2025-07-22 09:56:50.313 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:258 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22 09:56:50.351 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword:90 - 
+
+Using generated security password: 07798487-a86f-455b-8fd7-5c3450e460a3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-07-22 09:56:50.363 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure:110 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-22 09:56:50.421 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:31 - [GÜVENLİK] Security filter chain konfigürasyonu başlatıldı
+2025-07-22 09:56:50.423 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.filterChain:36 - [GÜVENLİK] CSRF repository ayarlandı: org.springframework.security.web.csrf.CookieCsrfTokenRepository@4300198a
+2025-07-22 09:56:50.423 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$0:40 - [GÜVENLİK-CORS] CORS konfigürasyonu uygulanıyor
+2025-07-22 09:56:50.424 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:90 - [GÜVENLİK-CORS] CORS konfigürasyonu oluşturuluyor
+2025-07-22 09:56:50.426 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:99 - [GÜVENLİK-CORS] İzin verilen origin: [http://localhost:4200]
+2025-07-22 09:56:50.426 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:100 - [GÜVENLİK-CORS] İzin verilen method'lar: [GET, POST, PUT, DELETE, OPTIONS]
+2025-07-22 09:56:50.426 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:101 - [GÜVENLİK-CORS] İzin verilen header'lar: [*]
+2025-07-22 09:56:50.427 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:102 - [GÜVENLİK-CORS] Credentials izni: true
+2025-07-22 09:56:50.427 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:107 - [GÜVENLİK-CORS] CORS konfigürasyonu başarıyla oluşturuldu
+2025-07-22 09:56:50.428 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$3:44 - [GÜVENLİK-CSRF] CSRF konfigürasyonu uygulanıyor
+2025-07-22 09:56:50.605 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:79 - [GÜVENLİK] Security filter chain başarıyla konfigüre edildi
+2025-07-22 09:56:50.630 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain.<init>:72 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-22 09:56:50.806 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2025-07-22 09:56:50.825 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:56:50.839 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start:243 - Tomcat started on port 8080 (http) with context path '/'
+2025-07-22 09:56:50.846 [restartedMain] INFO  c.example.backend.BackendApplication.logStarted:59 - Started BackendApplication in 3.763 seconds (process running for 4.35)
+2025-07-22 09:56:50.849 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:33 - [DATA-INIT] Uygulama başlatılıyor - Veri kontrolü yapılıyor
+2025-07-22 09:56:51.030 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22 09:56:51.030 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2025-07-22 09:56:51.031 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2025-07-22 09:56:51.046 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 09:56:51.067 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/csrf
+2025-07-22 09:56:51.070 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:51.070 [http-nio-8080-exec-1] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/csrf: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:51.073 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/csrf
+2025-07-22 09:56:51.083 [http-nio-8080-exec-1] DEBUG c.e.b.controller.CsrfController.getCsrfToken:13 - [GÜVENLİK-CSRF] CSRF token isteği alındı, sadece cookie set edilecek. Veri Dönmez!
+2025-07-22 09:56:51.100 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:56:51.143 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:37 - [DATA-INIT] Mevcut bölüm sayısı: 5
+2025-07-22 09:56:51.144 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:44 - [DATA-INIT] Bölümler zaten mevcut, yeni bölüm eklenmeyecek
+2025-07-22 09:56:51.197 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:56 - [DATA-INIT] İlk ADMIN Kullanıcısı zaten mevcut, tekrar eklenmeyecek
+2025-07-22 09:56:55.184 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing OPTIONS /api/auth/giris
+2025-07-22 09:56:55.187 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing POST /api/auth/giris
+2025-07-22 09:56:55.188 [http-nio-8080-exec-3] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=POST, URI=/api/auth/giris
+2025-07-22 09:56:55.188 [http-nio-8080-exec-3] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:55.188 [http-nio-8080-exec-3] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/auth/giris: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:55.189 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured POST /api/auth/giris
+2025-07-22 09:56:55.211 [http-nio-8080-exec-3] INFO  c.e.b.controller.AuthController.girisYap:62 - [KULLANICI-GİRİŞ] Giriş isteği alındı: emirkarabulut10@gmail.com
+2025-07-22 09:56:55.211 [http-nio-8080-exec-3] INFO  c.e.backend.service.KullaniciService.girisYap:42 - [KULLANICI-GİRİŞ] Giriş denemesi başlatıldı: emirkarabulut10@gmail.com
+2025-07-22 09:56:55.294 [http-nio-8080-exec-3] DEBUG c.e.backend.service.KullaniciService.lambda$girisYap$0:48 - [KULLANICI-GİRİŞ] Şifre kontrolü sonucu: false
+2025-07-22 09:56:55.294 [http-nio-8080-exec-3] WARN  c.e.backend.service.KullaniciService.girisYap:56 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:55.294 [http-nio-8080-exec-3] WARN  c.e.b.controller.AuthController.girisYap:91 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:55.313 [http-nio-8080-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:56:58.397 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing POST /api/auth/giris
+2025-07-22 09:56:58.398 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=POST, URI=/api/auth/giris
+2025-07-22 09:56:58.399 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:58.399 [http-nio-8080-exec-6] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/auth/giris: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:58.399 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured POST /api/auth/giris
+2025-07-22 09:56:58.401 [http-nio-8080-exec-6] INFO  c.e.b.controller.AuthController.girisYap:62 - [KULLANICI-GİRİŞ] Giriş isteği alındı: emirkarabulut10@gmail.com
+2025-07-22 09:56:58.401 [http-nio-8080-exec-6] INFO  c.e.backend.service.KullaniciService.girisYap:42 - [KULLANICI-GİRİŞ] Giriş denemesi başlatıldı: emirkarabulut10@gmail.com
+2025-07-22 09:56:58.489 [http-nio-8080-exec-6] DEBUG c.e.backend.service.KullaniciService.lambda$girisYap$0:48 - [KULLANICI-GİRİŞ] Şifre kontrolü sonucu: false
+2025-07-22 09:56:58.490 [http-nio-8080-exec-6] WARN  c.e.backend.service.KullaniciService.girisYap:56 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:58.490 [http-nio-8080-exec-6] WARN  c.e.b.controller.AuthController.girisYap:91 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:58.491 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:56:59.640 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing POST /api/auth/giris
+2025-07-22 09:56:59.641 [http-nio-8080-exec-7] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=POST, URI=/api/auth/giris
+2025-07-22 09:56:59.641 [http-nio-8080-exec-7] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:59.641 [http-nio-8080-exec-7] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/auth/giris: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 09:56:59.641 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured POST /api/auth/giris
+2025-07-22 09:56:59.643 [http-nio-8080-exec-7] INFO  c.e.b.controller.AuthController.girisYap:62 - [KULLANICI-GİRİŞ] Giriş isteği alındı: emirkarabulut10@gmail.com
+2025-07-22 09:56:59.643 [http-nio-8080-exec-7] INFO  c.e.backend.service.KullaniciService.girisYap:42 - [KULLANICI-GİRİŞ] Giriş denemesi başlatıldı: emirkarabulut10@gmail.com
+2025-07-22 09:56:59.713 [http-nio-8080-exec-7] DEBUG c.e.backend.service.KullaniciService.lambda$girisYap$0:48 - [KULLANICI-GİRİŞ] Şifre kontrolü sonucu: false
+2025-07-22 09:56:59.714 [http-nio-8080-exec-7] WARN  c.e.backend.service.KullaniciService.girisYap:56 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:59.714 [http-nio-8080-exec-7] WARN  c.e.b.controller.AuthController.girisYap:91 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 09:56:59.715 [http-nio-8080-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 09:58:30.503 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown.shutDownGracefully:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22 09:58:30.511 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown.doShutdown:76 - Graceful shutdown complete
+2025-07-22 09:58:30.514 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy:660 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:58:30.516 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:349 - HikariPool-1 - Shutdown initiated...
+2025-07-22 09:58:30.518 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:351 - HikariPool-1 - Shutdown completed.
+2025-07-22 09:58:42.958 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit>:21 - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-22 09:58:43.004 [restartedMain] INFO  c.example.backend.BackendApplication.logStarting:53 - Starting BackendApplication using Java 23.0.2 with PID 13068 (D:\Staj-Proje\Backend\target\classes started by Monsterr in D:\Staj-Proje\Backend)
+2025-07-22 09:58:43.004 [restartedMain] DEBUG c.example.backend.BackendApplication.logStarting:54 - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22 09:58:43.005 [restartedMain] INFO  c.example.backend.BackendApplication.logStartupProfileInfo:652 - No active profile set, falling back to 1 default profile: "default"
+2025-07-22 09:58:43.055 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-22 09:58:43.055 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-22 09:58:43.616 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22 09:58:43.665 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:213 - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2025-07-22 09:58:44.074 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize:111 - Tomcat initialized with port 8080 (http)
+2025-07-22 09:58:44.084 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:58:44.085 [restartedMain] INFO  o.a.catalina.core.StandardService.log:168 - Starting service [Tomcat]
+2025-07-22 09:58:44.085 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22 09:58:44.115 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring embedded WebApplicationContext
+2025-07-22 09:58:44.116 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext:301 - Root WebApplicationContext: initialization completed in 1060 ms
+2025-07-22 09:58:44.261 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22 09:58:44.296 [restartedMain] INFO  org.hibernate.Version.logVersion:44 - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22 09:58:44.323 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator.initiateService:50 - HHH000026: Second-level cache disabled
+2025-07-22 09:58:44.505 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22 09:58:44.525 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:109 - HikariPool-1 - Starting...
+2025-07-22 09:58:44.643 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast:575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@87f0504
+2025-07-22 09:58:44.644 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:122 - HikariPool-1 - Start completed.
+2025-07-22 09:58:44.692 [restartedMain] INFO  o.hibernate.orm.connections.pooling.logConnectionInfo:163 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22 09:58:45.270 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22 09:58:45.376 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:447 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:58:45.556 [restartedMain] INFO  c.e.backend.config.SecurityConfig.passwordEncoder:25 - [GÜVENLİK] BCryptPasswordEncoder bean'i oluşturuluyor
+2025-07-22 09:58:45.612 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:258 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22 09:58:45.631 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword:90 - 
+
+Using generated security password: 27bffaa4-0e52-4ab0-a3fd-d8a8e171d04c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-07-22 09:58:45.635 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure:110 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-22 09:58:45.668 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:31 - [GÜVENLİK] Security filter chain konfigürasyonu başlatıldı
+2025-07-22 09:58:45.669 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.filterChain:36 - [GÜVENLİK] CSRF repository ayarlandı: org.springframework.security.web.csrf.CookieCsrfTokenRepository@63569e0
+2025-07-22 09:58:45.669 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$0:40 - [GÜVENLİK-CORS] CORS konfigürasyonu uygulanıyor
+2025-07-22 09:58:45.670 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:90 - [GÜVENLİK-CORS] CORS konfigürasyonu oluşturuluyor
+2025-07-22 09:58:45.671 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:99 - [GÜVENLİK-CORS] İzin verilen origin: [http://localhost:4200]
+2025-07-22 09:58:45.671 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:100 - [GÜVENLİK-CORS] İzin verilen method'lar: [GET, POST, PUT, DELETE, OPTIONS]
+2025-07-22 09:58:45.671 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:101 - [GÜVENLİK-CORS] İzin verilen header'lar: [*]
+2025-07-22 09:58:45.671 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:102 - [GÜVENLİK-CORS] Credentials izni: true
+2025-07-22 09:58:45.672 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:107 - [GÜVENLİK-CORS] CORS konfigürasyonu başarıyla oluşturuldu
+2025-07-22 09:58:45.672 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$3:44 - [GÜVENLİK-CSRF] CSRF konfigürasyonu uygulanıyor
+2025-07-22 09:58:45.778 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:79 - [GÜVENLİK] Security filter chain başarıyla konfigüre edildi
+2025-07-22 09:58:45.793 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain.<init>:72 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-22 09:58:45.910 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2025-07-22 09:58:45.923 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:58:45.934 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start:243 - Tomcat started on port 8080 (http) with context path '/'
+2025-07-22 09:58:45.939 [restartedMain] INFO  c.example.backend.BackendApplication.logStarted:59 - Started BackendApplication in 3.388 seconds (process running for 3.961)
+2025-07-22 09:58:45.941 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:33 - [DATA-INIT] Uygulama başlatılıyor - Veri kontrolü yapılıyor
+2025-07-22 09:58:46.152 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:37 - [DATA-INIT] Mevcut bölüm sayısı: 5
+2025-07-22 09:58:46.153 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:44 - [DATA-INIT] Bölümler zaten mevcut, yeni bölüm eklenmeyecek
+2025-07-22 09:58:46.195 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:56 - [DATA-INIT] İlk ADMIN Kullanıcısı zaten mevcut, tekrar eklenmeyecek
+2025-07-22 09:59:53.980 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown.shutDownGracefully:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22 09:59:53.986 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown.doShutdown:76 - Graceful shutdown complete
+2025-07-22 09:59:53.990 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy:660 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:59:53.992 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:349 - HikariPool-1 - Shutdown initiated...
+2025-07-22 09:59:53.994 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:351 - HikariPool-1 - Shutdown completed.
+2025-07-22 09:59:56.549 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit>:21 - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-22 09:59:56.591 [restartedMain] INFO  c.example.backend.BackendApplication.logStarting:53 - Starting BackendApplication using Java 23.0.2 with PID 9824 (D:\Staj-Proje\Backend\target\classes started by Monsterr in D:\Staj-Proje\Backend)
+2025-07-22 09:59:56.592 [restartedMain] DEBUG c.example.backend.BackendApplication.logStarting:54 - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-22 09:59:56.593 [restartedMain] INFO  c.example.backend.BackendApplication.logStartupProfileInfo:652 - No active profile set, falling back to 1 default profile: "default"
+2025-07-22 09:59:56.643 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-22 09:59:56.643 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-22 09:59:57.237 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22 09:59:57.293 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn:213 - Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2025-07-22 09:59:57.787 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize:111 - Tomcat initialized with port 8080 (http)
+2025-07-22 09:59:57.799 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:59:57.800 [restartedMain] INFO  o.a.catalina.core.StandardService.log:168 - Starting service [Tomcat]
+2025-07-22 09:59:57.800 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log:168 - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-22 09:59:57.839 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring embedded WebApplicationContext
+2025-07-22 09:59:57.839 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext:301 - Root WebApplicationContext: initialization completed in 1195 ms
+2025-07-22 09:59:57.976 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22 09:59:58.010 [restartedMain] INFO  org.hibernate.Version.logVersion:44 - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-22 09:59:58.035 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator.initiateService:50 - HHH000026: Second-level cache disabled
+2025-07-22 09:59:58.237 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-22 09:59:58.262 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:109 - HikariPool-1 - Starting...
+2025-07-22 09:59:58.398 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast:575 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@98e5bcd
+2025-07-22 09:59:58.399 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection:122 - HikariPool-1 - Start completed.
+2025-07-22 09:59:58.448 [restartedMain] INFO  o.hibernate.orm.connections.pooling.logConnectionInfo:163 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-22 09:59:59.028 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-22 09:59:59.140 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory:447 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 09:59:59.340 [restartedMain] INFO  c.e.backend.config.SecurityConfig.passwordEncoder:25 - [GÜVENLİK] BCryptPasswordEncoder bean'i oluşturuluyor
+2025-07-22 09:59:59.437 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:258 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22 09:59:59.479 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword:90 - 
+
+Using generated security password: 7ec2d421-2133-4f27-85de-b967436e9647
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-07-22 09:59:59.489 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure:110 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-07-22 09:59:59.541 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:31 - [GÜVENLİK] Security filter chain konfigürasyonu başlatıldı
+2025-07-22 09:59:59.542 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.filterChain:36 - [GÜVENLİK] CSRF repository ayarlandı: org.springframework.security.web.csrf.CookieCsrfTokenRepository@65bbd1bb
+2025-07-22 09:59:59.543 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$0:40 - [GÜVENLİK-CORS] CORS konfigürasyonu uygulanıyor
+2025-07-22 09:59:59.543 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:90 - [GÜVENLİK-CORS] CORS konfigürasyonu oluşturuluyor
+2025-07-22 09:59:59.545 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:99 - [GÜVENLİK-CORS] İzin verilen origin: [http://localhost:4200]
+2025-07-22 09:59:59.545 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:100 - [GÜVENLİK-CORS] İzin verilen method'lar: [GET, POST, PUT, DELETE, OPTIONS]
+2025-07-22 09:59:59.546 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:101 - [GÜVENLİK-CORS] İzin verilen header'lar: [*]
+2025-07-22 09:59:59.546 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.corsConfigurationSource:102 - [GÜVENLİK-CORS] Credentials izni: true
+2025-07-22 09:59:59.547 [restartedMain] INFO  c.e.backend.config.SecurityConfig.corsConfigurationSource:107 - [GÜVENLİK-CORS] CORS konfigürasyonu başarıyla oluşturuldu
+2025-07-22 09:59:59.548 [restartedMain] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$3:44 - [GÜVENLİK-CSRF] CSRF konfigürasyonu uygulanıyor
+2025-07-22 09:59:59.727 [restartedMain] INFO  c.e.backend.config.SecurityConfig.filterChain:79 - [GÜVENLİK] Security filter chain başarıyla konfigüre edildi
+2025-07-22 09:59:59.755 [restartedMain] DEBUG o.s.s.web.DefaultSecurityFilterChain.<init>:72 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-07-22 09:59:59.942 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer:59 - LiveReload server is running on port 35729
+2025-07-22 09:59:59.960 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log:168 - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-22 09:59:59.974 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start:243 - Tomcat started on port 8080 (http) with context path '/'
+2025-07-22 09:59:59.982 [restartedMain] INFO  c.example.backend.BackendApplication.logStarted:59 - Started BackendApplication in 3.827 seconds (process running for 4.41)
+2025-07-22 09:59:59.985 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:33 - [DATA-INIT] Uygulama başlatılıyor - Veri kontrolü yapılıyor
+2025-07-22 10:00:00.115 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22 10:00:00.115 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:532 - Initializing Servlet 'dispatcherServlet'
+2025-07-22 10:00:00.116 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean:554 - Completed initialization in 1 ms
+2025-07-22 10:00:00.140 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 10:00:00.165 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/csrf
+2025-07-22 10:00:00.169 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:00.169 [http-nio-8080-exec-1] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/csrf: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:00.172 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/csrf
+2025-07-22 10:00:00.182 [http-nio-8080-exec-1] DEBUG c.e.b.controller.CsrfController.getCsrfToken:13 - [GÜVENLİK-CSRF] CSRF token isteği alındı, sadece cookie set edilecek. Veri Dönmez!
+2025-07-22 10:00:00.198 [http-nio-8080-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 10:00:00.285 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:37 - [DATA-INIT] Mevcut bölüm sayısı: 5
+2025-07-22 10:00:00.285 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:44 - [DATA-INIT] Bölümler zaten mevcut, yeni bölüm eklenmeyecek
+2025-07-22 10:00:00.338 [restartedMain] INFO  c.e.backend.config.DataInitializer.run:56 - [DATA-INIT] İlk ADMIN Kullanıcısı zaten mevcut, tekrar eklenmeyecek
+2025-07-22 10:00:04.525 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing OPTIONS /api/auth/giris
+2025-07-22 10:00:04.528 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing POST /api/auth/giris
+2025-07-22 10:00:04.529 [http-nio-8080-exec-5] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=POST, URI=/api/auth/giris
+2025-07-22 10:00:04.529 [http-nio-8080-exec-5] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:04.529 [http-nio-8080-exec-5] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/auth/giris: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:04.530 [http-nio-8080-exec-5] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured POST /api/auth/giris
+2025-07-22 10:00:04.551 [http-nio-8080-exec-5] INFO  c.e.b.controller.AuthController.girisYap:62 - [KULLANICI-GİRİŞ] Giriş isteği alındı: emirkarabulut10@gmail.com
+2025-07-22 10:00:04.551 [http-nio-8080-exec-5] INFO  c.e.backend.service.KullaniciService.girisYap:42 - [KULLANICI-GİRİŞ] Giriş denemesi başlatıldı: emirkarabulut10@gmail.com
+2025-07-22 10:00:04.636 [http-nio-8080-exec-5] DEBUG c.e.backend.service.KullaniciService.lambda$girisYap$0:48 - [KULLANICI-GİRİŞ] Şifre kontrolü sonucu: false
+2025-07-22 10:00:04.636 [http-nio-8080-exec-5] WARN  c.e.backend.service.KullaniciService.girisYap:56 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 10:00:04.638 [http-nio-8080-exec-5] WARN  c.e.b.controller.AuthController.girisYap:91 - [KULLANICI-GİRİŞ] Başarısız giriş denemesi: emirkarabulut10@gmail.com
+2025-07-22 10:00:04.655 [http-nio-8080-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 10:00:08.690 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing POST /api/auth/giris
+2025-07-22 10:00:08.692 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=POST, URI=/api/auth/giris
+2025-07-22 10:00:08.692 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.692 [http-nio-8080-exec-6] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/auth/giris: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.693 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured POST /api/auth/giris
+2025-07-22 10:00:08.695 [http-nio-8080-exec-6] INFO  c.e.b.controller.AuthController.girisYap:62 - [KULLANICI-GİRİŞ] Giriş isteği alındı: emirkarabulut10@gmail.com
+2025-07-22 10:00:08.695 [http-nio-8080-exec-6] INFO  c.e.backend.service.KullaniciService.girisYap:42 - [KULLANICI-GİRİŞ] Giriş denemesi başlatıldı: emirkarabulut10@gmail.com
+2025-07-22 10:00:08.770 [http-nio-8080-exec-6] DEBUG c.e.backend.service.KullaniciService.lambda$girisYap$0:48 - [KULLANICI-GİRİŞ] Şifre kontrolü sonucu: true
+2025-07-22 10:00:08.771 [http-nio-8080-exec-6] INFO  c.e.backend.service.KullaniciService.girisYap:54 - [KULLANICI-GİRİŞ] Başarılı giriş: emirkarabulut10@gmail.com
+2025-07-22 10:00:08.771 [http-nio-8080-exec-6] INFO  c.e.b.controller.AuthController.girisYap:68 - [KULLANICI-GİRİŞ] Başarılı giriş: emirkarabulut10@gmail.com
+2025-07-22 10:00:08.772 [http-nio-8080-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter.defaultWithAnonymous:119 - Set SecurityContextHolder to anonymous SecurityContext
+2025-07-22 10:00:08.800 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/bolumler/hepsi
+2025-07-22 10:00:08.800 [http-nio-8080-exec-3] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/bolumler/hepsi
+2025-07-22 10:00:08.801 [http-nio-8080-exec-3] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.801 [http-nio-8080-exec-3] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/bolumler/hepsi: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.801 [http-nio-8080-exec-3] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:00:08.802 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/bolumler/hepsi
+2025-07-22 10:00:08.803 [http-nio-8080-exec-3] INFO  c.e.b.controller.BolumController.tumBolumleriGetir:27 - [BÖLÜM-LİSTELE] Tüm bölümler listeleme isteği alındı
+2025-07-22 10:00:08.803 [http-nio-8080-exec-3] DEBUG c.e.backend.service.BolumService.tumBolumleriGetir:23 - [BÖLÜM-LİSTELE] Tüm bölümler getiriliyor
+2025-07-22 10:00:08.807 [http-nio-8080-exec-3] INFO  c.e.backend.service.BolumService.tumBolumleriGetir:27 - [BÖLÜM-LİSTELE] Toplam 5 bölüm bulundu
+2025-07-22 10:00:08.807 [http-nio-8080-exec-3] INFO  c.e.b.controller.BolumController.tumBolumleriGetir:31 - [BÖLÜM-LİSTELE] Toplam 5 bölüm listelendi
+2025-07-22 10:00:08.907 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/isciler/hepsi
+2025-07-22 10:00:08.908 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/istatistikler/bolumler
+2025-07-22 10:00:08.908 [http-nio-8080-exec-4] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/isciler/hepsi
+2025-07-22 10:00:08.909 [http-nio-8080-exec-4] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.909 [http-nio-8080-exec-7] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/istatistikler/bolumler
+2025-07-22 10:00:08.909 [http-nio-8080-exec-4] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/isciler/hepsi: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.909 [http-nio-8080-exec-7] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.909 [http-nio-8080-exec-7] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/istatistikler/bolumler: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:00:08.909 [http-nio-8080-exec-4] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:00:08.909 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/isciler/hepsi
+2025-07-22 10:00:08.909 [http-nio-8080-exec-7] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:00:08.910 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/istatistikler/bolumler
+2025-07-22 10:00:08.910 [http-nio-8080-exec-7] INFO  c.e.b.c.BolumIstatistikController.getBolumIstatistikleri:27 - [İSTATİSTİK-LİSTELE] Bölüm istatistikleri isteği alındı
+2025-07-22 10:00:08.911 [http-nio-8080-exec-7] INFO  c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:27 - [İSTATİSTİK-LİSTELE] Bölüm işçi sayıları hesaplanıyor
+2025-07-22 10:00:08.911 [http-nio-8080-exec-4] INFO  c.e.b.controller.IsciController.listeleTumIsciler:48 - [İŞÇİ-LİSTELE] Tüm işçiler listeleme isteği alındı
+2025-07-22 10:00:08.911 [http-nio-8080-exec-4] DEBUG c.e.backend.service.IsciService.tumIscileriGetir:36 - [İŞÇİ-LİSTELE] Tüm işçiler listeleniyor
+2025-07-22 10:00:08.918 [http-nio-8080-exec-7] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Pres, İşçi Sayısı: 9
+2025-07-22 10:00:08.919 [http-nio-8080-exec-7] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Gövde, İşçi Sayısı: 7
+2025-07-22 10:00:08.922 [http-nio-8080-exec-7] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Boya, İşçi Sayısı: 3
+2025-07-22 10:00:08.923 [http-nio-8080-exec-7] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Montaj, İşçi Sayısı: 10
+2025-07-22 10:00:08.926 [http-nio-8080-exec-7] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Motor Montaj, İşçi Sayısı: 7
+2025-07-22 10:00:08.926 [http-nio-8080-exec-7] INFO  c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:38 - [İSTATİSTİK-LİSTELE] Bölüm işçi sayıları başarıyla hesaplandı
+2025-07-22 10:00:08.927 [http-nio-8080-exec-7] INFO  c.e.b.c.BolumIstatistikController.getBolumIstatistikleri:31 - [İSTATİSTİK-LİSTELE] Bölüm istatistikleri başarıyla hesaplandı - 5 bölüm
+2025-07-22 10:00:08.927 [http-nio-8080-exec-7] DEBUG c.e.b.c.BolumIstatistikController.getBolumIstatistikleri:32 - [İSTATİSTİK-LİSTELE] İstatistik detayları: {Gövde=7, Motor Montaj=7, Montaj=10, Pres=9, Boya=3}
+2025-07-22 10:00:08.937 [http-nio-8080-exec-4] INFO  c.e.backend.service.IsciService.tumIscileriGetir:38 - [İŞÇİ-LİSTELE] Toplam 36 işçi bulundu
+2025-07-22 10:00:08.938 [http-nio-8080-exec-4] INFO  c.e.b.controller.IsciController.listeleTumIsciler:52 - [İŞÇİ-LİSTELE] Toplam 36 işçi listelendi
+2025-07-22 10:01:02.725 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 10:01:02.726 [http-nio-8080-exec-8] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/csrf
+2025-07-22 10:01:02.726 [http-nio-8080-exec-8] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.726 [http-nio-8080-exec-8] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/csrf: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.727 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/csrf
+2025-07-22 10:01:02.728 [http-nio-8080-exec-8] DEBUG c.e.b.controller.CsrfController.getCsrfToken:13 - [GÜVENLİK-CSRF] CSRF token isteği alındı, sadece cookie set edilecek. Veri Dönmez!
+2025-07-22 10:01:02.729 [http-nio-8080-exec-8] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:01:02.742 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/bolumler/hepsi
+2025-07-22 10:01:02.743 [http-nio-8080-exec-9] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/bolumler/hepsi
+2025-07-22 10:01:02.743 [http-nio-8080-exec-9] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.743 [http-nio-8080-exec-9] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/bolumler/hepsi: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.744 [http-nio-8080-exec-9] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:01:02.744 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/bolumler/hepsi
+2025-07-22 10:01:02.746 [http-nio-8080-exec-9] INFO  c.e.b.controller.BolumController.tumBolumleriGetir:27 - [BÖLÜM-LİSTELE] Tüm bölümler listeleme isteği alındı
+2025-07-22 10:01:02.746 [http-nio-8080-exec-9] DEBUG c.e.backend.service.BolumService.tumBolumleriGetir:23 - [BÖLÜM-LİSTELE] Tüm bölümler getiriliyor
+2025-07-22 10:01:02.751 [http-nio-8080-exec-9] INFO  c.e.backend.service.BolumService.tumBolumleriGetir:27 - [BÖLÜM-LİSTELE] Toplam 5 bölüm bulundu
+2025-07-22 10:01:02.751 [http-nio-8080-exec-9] INFO  c.e.b.controller.BolumController.tumBolumleriGetir:31 - [BÖLÜM-LİSTELE] Toplam 5 bölüm listelendi
+2025-07-22 10:01:02.844 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/isciler/hepsi
+2025-07-22 10:01:02.844 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/istatistikler/bolumler
+2025-07-22 10:01:02.845 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/istatistikler/bolumler
+2025-07-22 10:01:02.845 [http-nio-8080-exec-10] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/isciler/hepsi
+2025-07-22 10:01:02.845 [http-nio-8080-exec-1] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.845 [http-nio-8080-exec-10] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.845 [http-nio-8080-exec-10] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/isciler/hepsi: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.845 [http-nio-8080-exec-1] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/istatistikler/bolumler: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:02.845 [http-nio-8080-exec-10] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:01:02.845 [http-nio-8080-exec-1] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:01:02.845 [http-nio-8080-exec-10] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/isciler/hepsi
+2025-07-22 10:01:02.845 [http-nio-8080-exec-1] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/istatistikler/bolumler
+2025-07-22 10:01:02.846 [http-nio-8080-exec-10] INFO  c.e.b.controller.IsciController.listeleTumIsciler:48 - [İŞÇİ-LİSTELE] Tüm işçiler listeleme isteği alındı
+2025-07-22 10:01:02.846 [http-nio-8080-exec-1] INFO  c.e.b.c.BolumIstatistikController.getBolumIstatistikleri:27 - [İSTATİSTİK-LİSTELE] Bölüm istatistikleri isteği alındı
+2025-07-22 10:01:02.846 [http-nio-8080-exec-10] DEBUG c.e.backend.service.IsciService.tumIscileriGetir:36 - [İŞÇİ-LİSTELE] Tüm işçiler listeleniyor
+2025-07-22 10:01:02.846 [http-nio-8080-exec-1] INFO  c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:27 - [İSTATİSTİK-LİSTELE] Bölüm işçi sayıları hesaplanıyor
+2025-07-22 10:01:02.850 [http-nio-8080-exec-1] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Pres, İşçi Sayısı: 9
+2025-07-22 10:01:02.851 [http-nio-8080-exec-1] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Gövde, İşçi Sayısı: 7
+2025-07-22 10:01:02.853 [http-nio-8080-exec-1] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Boya, İşçi Sayısı: 3
+2025-07-22 10:01:02.853 [http-nio-8080-exec-10] INFO  c.e.backend.service.IsciService.tumIscileriGetir:38 - [İŞÇİ-LİSTELE] Toplam 36 işçi bulundu
+2025-07-22 10:01:02.853 [http-nio-8080-exec-10] INFO  c.e.b.controller.IsciController.listeleTumIsciler:52 - [İŞÇİ-LİSTELE] Toplam 36 işçi listelendi
+2025-07-22 10:01:02.854 [http-nio-8080-exec-1] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Montaj, İşçi Sayısı: 10
+2025-07-22 10:01:02.855 [http-nio-8080-exec-1] DEBUG c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:34 - [İSTATİSTİK-LİSTELE] Bölüm: Motor Montaj, İşçi Sayısı: 7
+2025-07-22 10:01:02.856 [http-nio-8080-exec-1] INFO  c.e.b.service.BolumIstatistikService.getBolumIscileriSayisi:38 - [İSTATİSTİK-LİSTELE] Bölüm işçi sayıları başarıyla hesaplandı
+2025-07-22 10:01:02.856 [http-nio-8080-exec-1] INFO  c.e.b.c.BolumIstatistikController.getBolumIstatistikleri:31 - [İSTATİSTİK-LİSTELE] Bölüm istatistikleri başarıyla hesaplandı - 5 bölüm
+2025-07-22 10:01:02.856 [http-nio-8080-exec-1] DEBUG c.e.b.c.BolumIstatistikController.getBolumIstatistikleri:32 - [İSTATİSTİK-LİSTELE] İstatistik detayları: {Gövde=7, Motor Montaj=7, Montaj=10, Pres=9, Boya=3}
+2025-07-22 10:01:04.289 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 10:01:04.290 [http-nio-8080-exec-2] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/csrf
+2025-07-22 10:01:04.291 [http-nio-8080-exec-2] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:04.291 [http-nio-8080-exec-2] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/csrf: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:04.291 [http-nio-8080-exec-2] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/csrf
+2025-07-22 10:01:04.292 [http-nio-8080-exec-2] DEBUG c.e.b.controller.CsrfController.getCsrfToken:13 - [GÜVENLİK-CSRF] CSRF token isteği alındı, sadece cookie set edilecek. Veri Dönmez!
+2025-07-22 10:01:04.293 [http-nio-8080-exec-2] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:01:06.065 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 10:01:06.066 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:50 - [GÜVENLİK-CSRF] CSRF token isteği alındı: Method=GET, URI=/api/csrf
+2025-07-22 10:01:06.066 [http-nio-8080-exec-6] DEBUG c.e.backend.config.SecurityConfig.lambda$filterChain$2:58 - [GÜVENLİK-CSRF] Token parametre adı: _csrf, header adı: X-XSRF-TOKEN, değer: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:06.067 [http-nio-8080-exec-6] INFO  c.e.backend.config.SecurityConfig.lambda$filterChain$2:63 - [GÜVENLİK-CSRF] CSRF token yeni oluşturuldu - /api/csrf: c6ed8d23-2ea3-43cf-80ad-a6eb7377ef09
+2025-07-22 10:01:06.067 [http-nio-8080-exec-6] DEBUG o.s.security.web.FilterChainProxy.lambda$doFilterInternal$3:227 - Secured GET /api/csrf
+2025-07-22 10:01:06.068 [http-nio-8080-exec-6] DEBUG c.e.b.controller.CsrfController.getCsrfToken:13 - [GÜVENLİK-CSRF] CSRF token isteği alındı, sadece cookie set edilecek. Veri Dönmez!
+2025-07-22 10:01:06.069 [http-nio-8080-exec-6] DEBUG o.s.s.w.c.HttpSessionSecurityContextRepository.readSecurityContextFromSession:236 - Retrieved SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=emirkarabulut10@gmail.com, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN]]]
+2025-07-22 10:01:08.800 [http-nio-8080-exec-3] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing OPTIONS /api/csrf
+2025-07-22 10:01:08.802 [http-nio-8080-exec-7] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 10:01:12.444 [http-nio-8080-exec-4] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing OPTIONS /api/csrf
+2025-07-22 10:01:12.446 [http-nio-8080-exec-8] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing GET /api/csrf
+2025-07-22 10:01:17.422 [http-nio-8080-exec-9] DEBUG o.s.security.web.FilterChainProxy.doFilterInternal:223 - Securing OPTIONS /api/auth/giris
+2025-07-22 10:20:45.638 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown.shutDownGracefully:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-22 10:20:45.644 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown.doShutdown:76 - Graceful shutdown complete
+2025-07-22 10:20:45.647 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy:660 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 10:20:45.650 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:349 - HikariPool-1 - Shutdown initiated...
+2025-07-22 10:20:45.652 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close:351 - HikariPool-1 - Shutdown completed.
