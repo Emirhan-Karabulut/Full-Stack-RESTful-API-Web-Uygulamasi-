@@ -91,10 +91,10 @@ public class SecurityConfig {
 
         try {
             CorsConfiguration configuration = new CorsConfiguration();
-            configuration.setAllowedOrigins(List.of("*")); // Tüm domainlere izin ver
+            configuration.setAllowedOrigins(List.of("https://senin-frontend-domainin.app", "http://localhost:4200"));
             configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
             configuration.setAllowedHeaders(List.of("*"));
-            configuration.setAllowCredentials(false); // '*' ile kullanınca true olamaz
+            configuration.setAllowCredentials(true);
 
             log.debug("[GÜVENLİK-CORS] İzin verilen origin: {}", configuration.getAllowedOrigins());
             log.debug("[GÜVENLİK-CORS] İzin verilen method'lar: {}", configuration.getAllowedMethods());
