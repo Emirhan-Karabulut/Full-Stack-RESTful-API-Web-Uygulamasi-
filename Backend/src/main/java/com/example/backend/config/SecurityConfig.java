@@ -95,7 +95,6 @@ public class SecurityConfig {
                     "http://localhost:4200",
                     "https://emirhan-karabulut.github.io"
             ));
-
             configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
             configuration.setAllowedHeaders(List.of("*"));
             configuration.setAllowCredentials(true);
